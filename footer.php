@@ -1,12 +1,28 @@
 <!--=====Footer start=======-->
+<?php
+
+$currentPage = 'footer';
+
+$title = "footer";
+
+$keywords = "";
+
+$description = "";
+
+include("head.php");
+
+?>
+
+
+
 <footer class="footer-area padding-top font-f-4">
     <div class="container">
         <div class="row">
             <div class="col-lg-4">
                 <div class="single-footer mr50 hadding2">
-                    <div class="site-logo home1-site-logo">
+                    <div class="site-logo home1-site-logo me-5">
                         <a href="index.php">
-                            <img src="assets/img/logo/New Project (1).png" alt="" />
+                            <img class="mr50" src="assets/img/logo/radgeway-logo.svg" alt="" />
                         </a>
                     </div>
                     <div class="space20"></div>
@@ -88,7 +104,7 @@
                                 <img src="assets/img/icons/footer12-icon1.svg" alt="">
                             </div>
                             <div class="contact-icon-h">
-                                <a href="tel:921-888-0022">+971 56 578 7431</a>
+                                <a href="https://wa.me/+971565787431">+971 56 578 7431</a>
                             </div>
                         </div>
                         <div class="contact-icon-box2">
@@ -96,7 +112,8 @@
                                 <img src="assets/img/icons/footer12-icon1.svg" alt="">
                             </div>
                             <div class="contact-icon-h">
-                                <a href="tel:921-888-0022">+971 55 149 2260</a>
+                                <a href="tel:921-888-0022"></a>
+                                <a href="https://wa.me/+971551492260">+971 55 149 2260</a>
                             </div>
                         </div>
 
@@ -124,3 +141,34 @@
     </div>
 </footer>
 <!--=====Footer end=======-->
+
+
+
+
+
+
+
+
+
+<!--=====JS=======-->
+<script src="assets/js/bootstrap.min.js"></script>
+<script src="assets/js/fontawesome.js"></script>
+<script src="assets/js/owl.carousel.min.js"></script>
+<script src="assets/js/aos.js"></script>
+<script src="assets/js/jquery.magnific-popup.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/waypoints/4.0.1/jquery.waypoints.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js"
+  integrity="sha384-oBqDVmMz9ATKxIep9tiCxS/Z9fNfEXiDAYTujMAeBAsjFuCZSmKbSSUnQlmh/jp3" crossorigin="anonymous"></script>
+<script src="assets/js/slick-slider.js"></script>
+<script src="assets/js/mobile-menu.js"></script>
+<script src="assets/js/tilt.jquery.js"></script>
+<script src="assets/js/jquery.countup.js"></script>
+<script src="assets/js/jquery.nice-select.js"></script>
+<script src="assets/js/jquery.lineProgressbar.js"></script>
+<script src="assets/js/mobile-meanmenu.js"></script>
+<script src="assets/js/jquery.magnific-popup.min.js"></script>
+<!-- <script src="assets/js/modal-video.min.js"></script> -->
+<!-- <script src="assets/js/jquery.fittext.js"></script>
+        <script src="assets/js/jquery.lettering.js"></script>
+        <script src="assets/js/jquery.textillate.js"></script> -->
+<script src="assets/js/main.js"></script>

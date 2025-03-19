@@ -3,50 +3,6 @@
     <!--=====progress START=======-->
 
 
-
-
-    <!-- Preloader -->
-    <section>
-        <div id="preloader">
-            <div id="ctn-preloader" class="ctn-preloader ctn-preloader13">
-                <div class="animation-preloader">
-                    <div class="spinner"></div>
-                    <div class="txt-loading">
-                        <span data-text-preloader="R" class="letters-loading">
-                            R
-                        </span>
-                        <span data-text-preloader="A" class="letters-loading">
-                            A
-                        </span>
-                        <span data-text-preloader="D" class="letters-loading">
-                            D
-                        </span>
-                        <span data-text-preloader="G" class="letters-loading">
-                            G
-                        </span>
-                        <span data-text-preloader="E" class="letters-loading">
-                            E
-                        </span>
-                        <span data-text-preloader="W" class="letters-loading">
-                            W
-                        </span>
-                        <span data-text-preloader="A" class="letters-loading">
-                            A
-                        </span>
-                        <span data-text-preloader="Y" class="letters-loading">
-                            Y
-                        </span>
-                    </div>
-                </div>
-                <div class="loader-section section-left"></div>
-                <div class="loader-section section-right"></div>
-            </div>
-        </div>
-    </section>
-
-
-    <!--=====progress END=======-->
-
     <div class="paginacontainer">
 
         <div class="progress-wrap">
@@ -68,7 +24,7 @@
                         <div class="header-elements _relative">
                             <div class="site-logo home1-site-logo">
                                 <a href="index.php">
-                                    <img src="assets/img/logo/New Project (1).png" alt="" />
+                                   <img class="mr50" src="assets/img/logo/radgeway-logo.svg" alt="" style="margin-right: 50px !important;" />
                                 </a>
                             </div>
 
@@ -174,7 +130,7 @@
             <div class="col-12">
                 <div class="mobile-header-elements">
                     <div class="mobile-logo">
-                        <a href="index.php"><img src="assets/img/logo/header-logo12.svg" alt=""></a>
+                        <a href="index.php"><img src="assets/img/logo/radgeway-logo.svg" alt=""></a>
                     </div>
                     <div class="mobile-nav-icon">
                         <i class="fa-solid fa-bars"></i>
@@ -186,7 +142,7 @@
 
     <div class="mobile-sidebar d-block d-lg-none">
         <div class="menu-close-logo">
-            <a href="index.php"><img src="assets/img/logo/header-logo7.svg" alt=""></a>
+            <a href="index.php"><img class="me-5" src="assets/img/logo/radgeway-logo.svg" alt=""></a>
         </div>
         <div class="menu-close">
             <i class="fa-solid fa-xmark"></i>

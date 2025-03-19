@@ -196,7 +196,7 @@ line-height: 24px; /* 100% */
   border-radius: 2px;
   padding: 16px 24px;
   z-index: 1;
-  background: #13AAA1;
+  background: #de8e59;
   border-radius: 5px;
   overflow: hidden;
   transition: all.4s;
@@ -346,7 +346,7 @@ line-height: 24px; /* 100% */
   border-radius: 2px;
   padding: 16px 24px;
   z-index: 1;
-  background: #13AAA1;
+  background: #de8e59;
   border-radius: 5px;
   overflow: hidden;
   transition: all.4s;
@@ -410,7 +410,7 @@ line-height: 24px; /* 100% */
 }
 
 .hadding2 span {
-  color: var(--5th-Main, #13AAA1);
+  color: var(--5th-Main, #de8e59);
 font-size: 18px;
 font-style: normal;
 font-weight: 700;
@@ -447,7 +447,7 @@ text-transform: capitalize;
 }
 
 .hadding2 h3 a:hover {
-  color: #13AAA1;
+  color: #de8e59;
   transition: all.4s;
 }
 
@@ -1760,7 +1760,7 @@ transition: all.4s;
 	position: fixed;
   top: 0;
   width: calc(50% + 1px);
-  background-color: #13AAA1;
+  background-color: #de8e59;
 }
 
 .ctn-preloader.ctn-preloader2 .loader-section {
@@ -1769,7 +1769,7 @@ transition: all.4s;
 	position: fixed;
   top: 0;
   width: calc(50% + 1px);
-  background-color: #0D4F51;
+  background-color: #2B29A4;
 }
 
 .ctn-preloader.ctn-preloader3 .loader-section {
@@ -1832,7 +1832,7 @@ transition: all.4s;
 	position: fixed;
   top: 0;
   width: calc(50% + 1px);
-  background-color: #02341c;
+  background-color: #2B29A4;
 }
 
 .ctn-preloader.ctn-preloader8 .loader-section {
@@ -2895,7 +2895,7 @@ display: inline-block;
   outline: none;
   text-transform: capitalize;
   display: inline-block;
-  background: #DE8E59;
+  background: #204488;
   color: #fff;
   z-index: 2;
   -webkit-transition: all ease 0.3s;
@@ -2913,7 +2913,7 @@ display: inline-block;
   left: 0;
   height: 0%;
   width: 0%;
-  background-color: #0b5531;
+  background-color: #204488;
   border-radius: 100% 100% 5px 5px;
   z-index: -1;
   transition: all.4s;
@@ -2926,7 +2926,7 @@ display: inline-block;
   right: 0;
   height: 0%;
   width: 0%;
-  background-color: #0b5531;
+  background-color: #204488;
   border-radius: 5px 5px 100% 100%;
   z-index: -1;
   transition: all.4s;

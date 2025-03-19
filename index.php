@@ -1,5 +1,4 @@
 <?php
-
 $currentPage = 'home';
 
 $title = "Home";
@@ -11,172 +10,50 @@ $description = "";
 include("head.php");
 
 ?>
-
 <?php include("header.php"); ?>
 
-
-
-
 <!--=====hero area start=======-->
-<div class="hero-area7 _relative">
-  <div class="overlay2"></div>
+  <div class="hero-area7 _relative bg-video-wrap">
+        <video src="assets/img/video/header13-video.mp4" loop muted autoplay>
+        </video class="hero12-bg-video">
+        <div class="overlay"></div>
+        <div class="container">
+          <div class="row align-items-center">
+            <div class="col-lg-7">
+                <div class="space80"></div>
+              <div class="main-hadding7 main-hadding12">
+                  <h1 data-aos="fade-right" data-aos-duration="700"> Trusted Guidance Through Every Immigration Challaenge</h1>
+                  <div class="space24"></div>
+                  <p data-aos="fade-right" data-aos-duration="900" >Our dedicated team of immigration specialists works tirelessly to transform  <br> your visa challenges into successful outcomes.</p>
+                  <div class="space32"></div>
+                  <div class="hero7-all-buttons" data-aos="fade-right" data-aos-duration="1100">
+                    <a href="contact.php" class="theme-btn21"><span>Join Our Visa Journey</span></a>
 
-
-  <div class="container">
-    <div class="row align-items-center">
-      <div class="col-lg-6">
-        <div class="hero13-image-slider foter-carousel">
-          <div class="hero13-single-slider img5">
-            <img src="assets/img/image/hero13-main-img1.png" alt="">
-          </div>
-
-          <div class="hero13-single-slider img5">
-            <img src="assets/img/image/hero13-main-img2.png" alt="">
-          </div>
-
-          <div class="hero13-single-slider img5">
-            <img src="assets/img/image/hero13-main-img3.png" alt="">
-          </div>
-
-          <div class="hero13-single-slider img5">
-            <img src="assets/img/image/hero13-main-img1.png" alt="">
-          </div>
-
-          <div class="hero13-single-slider img5">
-            <img src="assets/img/image/hero13-main-img2.png" alt="">
-          </div>
-
-        </div>
-        <div class="testimonial-arrows">
-          <div class="testimonial-prev-arrow">
-            <button><i class="fa-solid fa-arrow-right"></i></button>
-          </div>
-          <div class="testimonial-next-arrow">
-            <button><i class="fa-solid fa-arrow-left"></i></button>
+                    <div class="desktop-info">
+                      <div class="quick_contact">
+                        <div class="quick_contact_icon bg-27">
+                          <i class="fa-light fa-phone"></i>
+                        </div>
+                        <div class="quick_contact_content">
+                          <small>Mobail 24/7</small>
+                         <a href="https://wa.me/+971565787431">+971 56 578 7431</a>
+                        </div>
+                      </div>
+                    </div>
+              
+                  </div>
+              </div>
+            </div>
+            <div class="col-lg-5">
+            </div>
           </div>
         </div>
+        <img class="hero7-shape1 aniamtion-key-2" src="assets/img/shapes/hero7-shape1.svg" alt="">
+        <img class="hero7-shape2 aniamtion-key-2" src="assets/img/shapes/hero7-shape2.svg" alt="">
+        <img class="hero7-shape3 aniamtion-key-3" src="assets/img/shapes/hero7-shape3.svg" alt="">
       </div>
-      <div class="col-lg-6">
-        <div class="space80"></div>
-        <div class=" slider-nav hero13-main-hadding">
-          <div class="main-hadding7">
-            <h1> Expert Visa Solutions Tailored to Your Dreams</h1>
-            <div class="space24"></div>
-            <p>Our specialized consultants transform complex immigration processes into clear pathways, guiding you
-              step-by-step toward your new beginning.</p>
-            <div class="space32"></div>
-            <div class="hero7-all-buttons">
-              <a href="contact.php" class="theme-btn21"><span>Join Radgeway Service</span></a>
-            </div>
-          </div>
-          <div class="main-hadding7">
-            <h1> Personalized Immigration Strategies That Work</h1>
-            <div class="space24"></div>
-            <p>We don't just process applications—we craft customized strategies based on your unique situation,
-              ensuring the highest chance of success</p>
-            <div class="space32"></div>
-            <div class="hero7-all-buttons">
-              <a href="contact.php" class="theme-btn21"><span>Join Radgeway Service</span></a>
-            </div>
-          </div>
-          <div class="main-hadding7">
-            <h1>Trusted Guidance Through Every Immigration Challenge</h1>
-            <div class="space24"></div>
-            <p>With decades of combined experience, our team navigates even the most complex visa situations, turning obstacles into opportunities for your international journey.</p>
-            <div class="space32"></div>
-            <div class="hero7-all-buttons">
-              <a href="contact.php" class="theme-btn21"><span>Join Radgeway Service</span></a>
-            </div>
-          </div>
-        </div>
-      </div>
-    </div>
-  </div>
-
-
-  <img class="hero7-shape1 aniamtion-key-2" src="assets/img/shapes/hero7-shape1.svg" alt="">
-  <img class="hero7-shape2 aniamtion-key-2" src="assets/img/shapes/hero7-shape2.svg" alt="">
-  <img class="hero7-shape3 aniamtion-key-3" src="assets/img/shapes/hero7-shape3.svg" alt="">
-</div>
 
 <!--=====hero area end=======-->
-
-
-<!--======= about-start ======-->
-<!-- <div class="about sec-padding">
-  <div class="container">
-      <div class="row">
-          <div class="col-md-5">
-              <div class="hadding footer-hadding" data-aos="fade-right" data-aos-duration="1200">
-                  <h1>People are Saying About DoWhith</h1>
-                  <p>Everything you need to accept to payment and grow your money of manage anywhere on planet</p>
-                          <div class="foter-carousel">
-                              <div class="carousel-about">
-                                  <img src="assets/images/coma.png" alt="">
-                                  <p>I am very helped by this E-wallet application , my days are very easy to use this application and its very helpful in my life , even I can pay a short time 😍</p>
-                                  <p>_ Aria Zinanrio</p>
-                              </div>
-
-                              <div class="carousel-about">
-                                  <img src="assets/images/coma.png" alt="">
-                                  <p>2</p>
-                              </div>
-
-                              <div class="carousel-about">
-                                  <img src="assets/images/coma.png" alt="">
-                                  <p>3</p>
-                              </div>
-
-                              <div class="carousel-about">
-                                  <img src="assets/images/coma.png" alt="">
-                                  <p>4</p>
-                              </div>
-                          </div>
-                          <div class="foter-carousel-img slider-nav">
-                              <div class="carousel-img-1">
-                                  <img src="assets/images/footer-img-1.png" alt="">
-                              </div>
-                              <div class="carousel-img-1">
-                                  <img src="assets/images/footer-img-2.png" alt="">
-                              </div>
-                              <div class="carousel-img-1">
-                                  <img src="assets/images/footer-img-3.png" alt="">
-                              </div>
-                              <div class="carousel-img-1">
-                                  <img src="assets/images/footer-img-4.png" alt="">
-                              </div>
-                              <div class="carousel-img-1">
-                                  <a href=""class="js-modal-btn" data-video-id="XJS_UYNq4No"><img src="assets/images/footer-img-5.png" alt=""></a>
-                              </div>
-                          </div>
-              </div>
-          </div>
-          <div class="col-md-7">
-              <div class="get-started" data-aos="fade-left" data-aos-duration="1400">
-                  <div class="get-started-image text-center">
-                      <img src="assets/images/get-started.png" alt="">
-                  </div>
-                      <form action="#">
-                      <p>Email</p>
-                      <input type="text" placeholder="Enter your email" >
-                      <p>Message</p>
-                      <textarea cols="30" rows="2" placeholder="What are you say ?" ></textarea>
-                      <div class="footer-btn text-center">
-                          <button>Request Demo</button>
-                      </div>
-                      <div class="or">
-                          <a href="#"><span>or </span>Start Free Trial</a>
-                      </div>
-                      </form>
-              </div>
-          </div>
-      </div>
-  </div>
-</div> -->
-
-<!--======= about-end ======-->
-
-
 <!--=====about start=======-->
 
 <div class="about6 sp3">
@@ -210,7 +87,7 @@ include("head.php");
           <div class="space16"></div>
           <h1 class="font-f-4" data-aos="fade-left" data-aos-duration="900">The story of Radgeway.</h1>
           <div class="space24"></div>
-          <p class="font-f-4" data-aos="fade-left" data-aos-duration="1100">Founded in 2024, Radgeway Service emerged from a vision to transform the immigration and visa consultation landscape. Though our company is young, our passionate team brings together over 6 years of specialized expertise in immigration law, visa processing, and international relocation services. In our first year, we've already guided hundreds of clients toward successful visa approvals and smooth transitions to new countries.</p>
+          <p class="font-f-4" data-aos="fade-left" data-aos-duration="1100">Founded in 2022, Radgeway Service emerged from a vision to transform the immigration and visa consultation landscape. Though our company is young, our passionate team brings together over 6 years of specialized expertise in immigration law, visa processing, and international relocation services. In our first year, we've already guided hundreds of clients toward successful visa approvals and smooth transitions to new countries.</p>
           <div class="space20"></div>
           <p class="font-f-4" data-aos="fade-left" data-aos-duration="900">At Radgeway Service, our consultants have previously worked with prestigious immigration firms and government agencies, bringing this valuable insider knowledge directly to our clients. Despite being newcomers in the industry, our fresh approach combined with seasoned expertise allows us to offer innovative solutions while navigating the constantly evolving immigration landscape. We pride ourselves on our personalized service, attention to detail, and unwavering commitment to turning your immigration dreams into reality.</p>
           <div class="space32"></div>
@@ -368,7 +245,7 @@ include("head.php");
       <div class="col-lg-4">
         <div class="countrie3-box">
           <div class="countrie3-img img100 img5">
-            <img src="assets/img/image/Netherlands.jpg" alt="">
+            <img src="assets/img/image/countrie3-img2.png" alt="">
           </div>
           <div class="countrie3-hadding">
             <h2><a href="netherland.php" class="weight-600">Netherlands</a></h2>
@@ -386,7 +263,7 @@ include("head.php");
       <div class="col-lg-4">
         <div class="countrie3-box">
           <div class="countrie3-img img100 img5">
-            <img src="assets/img/image/Canada 2.jpg" alt="">
+            <img src="assets/img/image/countrie3-img4.png" alt="">
           </div>
           <div class="countrie3-hadding">
             <h2><a href="canada.php" class="weight-600">Canada</a></h2>
@@ -826,7 +703,7 @@ include("head.php");
             gave me valuable tips for the interview.</p>
           <div class="space32"></div>
           <div class="" data-aos="fade-right" data-aos-duration="700">
-            <a href="contact.php" class="theme-btn5 font-f-7">Consult Our Experts </a>
+            <a href="contact.php" class="theme-btn21 font-f-7">Consult Our Experts </a>
           </div>
         </div>
       </div>
@@ -837,7 +714,7 @@ include("head.php");
             <div class="tes2-slider-single">
               <div class="tes2-images">
                 <div class="tes2-img1 img50">
-                  <img src="assets/img/image/tes2-img1.png" alt="">
+                  <img src="assets/img/image/download.png" alt="">
                 </div>
                 <div class="tes2-img2">
                   <img src="assets/img/icons/tes2-icon.svg" alt="">
@@ -848,9 +725,7 @@ include("head.php");
               </div>
               <div class="space24"></div>
               <div class="tes2-hadding tes2-hadding2">
-                <p>“I was overwhelmed by the complexities of the visa application process, but Visa Consulting turned it
-                  into a breeze. Their expert consultants guided me through every step, ensuring all my documents were
-                  in order. </p>
+                <p>"I was initially overwhelmed by the complexities of the Malta visa application process, but Radgeway Service made everything smooth and hassle-free. Their expert team guided me through every step, ensuring all my documents were in order. Thanks to their professionalism and support, I received my visa without any stress. Highly recommended!" </p>
                 <div class="space24"></div>
                 <ul class="tes2-review">
                   <li><i class="fa-solid fa-star"></i></li>
@@ -860,16 +735,16 @@ include("head.php");
                   <li><i class="fa-solid fa-star"></i></li>
                 </ul>
                 <div class="space16"></div>
-                <h6><a href="#">Jane Doe</a></h6>
+                <h6><a href="#">Ranavini Murali</a></h6>
                 <div class="space4"></div>
-                <span>8/21/2022</span>
+                <span>3/05/2024</span>
               </div>
             </div>
 
             <div class="tes2-slider-single">
               <div class="tes2-images">
                 <div class="tes2-img1 img50">
-                  <img src="assets/img/image/tes2-img2.png" alt="">
+                  <img src="assets/img/image/download.png" alt="">
                 </div>
                 <div class="tes2-img2">
                   <img src="assets/img/icons/tes2-icon.svg" alt="">
@@ -880,9 +755,7 @@ include("head.php");
               </div>
               <div class="space24"></div>
               <div class="tes2-hadding">
-                <p>“I was overwhelmed by the complexities of the visa application process, but Visa Consulting turned it
-                  into a breeze. Their expert consultants guided me through every step, ensuring all my documents were
-                  in order. </p>
+                <p>“Applying for a Hungary visa felt like a complicated process, but Radgeway Service made it incredibly easy. Their team guided me through each step, ensuring all my documents were properly prepared. Thanks to their expertise, I received my visa without any hassle. Highly recommend their services!" </p>
                 <div class="space24"></div>
                 <ul class="tes2-review">
                   <li><i class="fa-solid fa-star"></i></li>
@@ -892,16 +765,16 @@ include("head.php");
                   <li><i class="fa-solid fa-star"></i></li>
                 </ul>
                 <div class="space16"></div>
-                <h6><a href="#">Mark Philips</a></h6>
+                <h6><a href="#">Nimmla Sathish</a></h6>
                 <div class="space4"></div>
-                <span>8/19/2022</span>
+                <span>09/01/2025</span>
               </div>
             </div>
 
             <div class="tes2-slider-single">
               <div class="tes2-images">
                 <div class="tes2-img1 img50">
-                  <img src="assets/img/image/tes2-img1.png" alt="">
+                  <img src="assets/img/image/download.png" alt="">
                 </div>
                 <div class="tes2-img2">
                   <img src="assets/img/icons/tes2-icon.svg" alt="">
@@ -912,9 +785,7 @@ include("head.php");
               </div>
               <div class="space24"></div>
               <div class="tes2-hadding">
-                <p>“I was overwhelmed by the complexities of the visa application process, but Visa Consulting turned it
-                  into a breeze. Their expert consultants guided me through every step, ensuring all my documents were
-                  in order. </p>
+                <p>"Radgeway Service made the France family visa process smooth and stress-free. Their team provided expert guidance, ensuring that all our documents were in order and submitted correctly. Thanks to their professionalism and support, our family visa was approved without any complications. Highly recommended!"</p>
                 <div class="space24"></div>
                 <ul class="tes2-review">
                   <li><i class="fa-solid fa-star"></i></li>
@@ -924,9 +795,126 @@ include("head.php");
                   <li><i class="fa-solid fa-star"></i></li>
                 </ul>
                 <div class="space16"></div>
-                <h6><a href="#">Jane Doe</a></h6>
+                <h6><a href="#">Chaitanya</a></h6>
                 <div class="space4"></div>
-                <span>8/21/2022</span>
+                <span>7/02/2025</span>
+              </div>
+            </div>
+
+          <div class="tes2-slider-single">
+              <div class="tes2-images">
+                <div class="tes2-img1 img50">
+                  <img src="assets/img/image/download.png" alt="">
+                </div>
+                <div class="tes2-img2">
+                  <img src="assets/img/icons/tes2-icon.svg" alt="">
+                </div>
+                <div class="tes2-img3">
+                  <img src="assets/img/shapes/tes2-shape.svg" alt="">
+                </div>
+              </div>
+              <div class="space24"></div>
+              <div class="tes2-hadding">
+                <p>"Radgeway Service made obtaining our Romania family visa a hassle-free experience. Their knowledgeable team guided us through every step, ensuring our paperwork was accurate and complete. With their professionalism and attention to detail, our application was processed smoothly and approved without issues. Truly grateful for their support—highly recommended!"</p>
+                <div class="space24"></div>
+                <ul class="tes2-review">
+                  <li><i class="fa-solid fa-star"></i></li>
+                  <li><i class="fa-solid fa-star"></i></li>
+                  <li><i class="fa-solid fa-star"></i></li>
+                  <li><i class="fa-solid fa-star"></i></li>
+                  <li><i class="fa-solid fa-star"></i></li>
+                </ul>
+                <div class="space16"></div>
+                <h6><a href="#">Pun Shundar</a></h6>
+                <div class="space4"></div>
+                <span>26/02/2025</span>
+              </div>
+            </div>
+            <div class="tes2-slider-single">
+              <div class="tes2-images">
+                <div class="tes2-img1 img50">
+                  <img src="assets/img/image/download.png" alt="">
+                </div>
+                <div class="tes2-img2">
+                  <img src="assets/img/icons/tes2-icon.svg" alt="">
+                </div>
+                <div class="tes2-img3">
+                  <img src="assets/img/shapes/tes2-shape.svg" alt="">
+                </div>
+              </div>
+              <div class="space24"></div>
+              <div class="tes2-hadding">
+                <p>"Radgeway Service handled our Romania family visa process with exceptional efficiency. Their expert team provided clear guidance, ensuring every document was properly prepared and submitted on time. Thanks to their professionalism and dedication, we received our visa without any delays. Highly recommend their services!"</p>
+                <div class="space24"></div>
+                <ul class="tes2-review">
+                  <li><i class="fa-solid fa-star"></i></li>
+                  <li><i class="fa-solid fa-star"></i></li>
+                  <li><i class="fa-solid fa-star"></i></li>
+                  <li><i class="fa-solid fa-star"></i></li>
+                  <li><i class="fa-solid fa-star"></i></li>
+                </ul>
+                <div class="space16"></div>
+                <h6><a href="#">Dhimal Sanjeep</a></h6>
+                <div class="space4"></div>
+                <span>05/09/2025</span>
+              </div>
+            </div>
+            <div class="tes2-slider-single">
+              <div class="tes2-images">
+                <div class="tes2-img1 img50">
+                  <img src="assets/img/image/download.png" alt="">
+                </div>
+                <div class="tes2-img2">
+                  <img src="assets/img/icons/tes2-icon.svg" alt="">
+                </div>
+                <div class="tes2-img3">
+                  <img src="assets/img/shapes/tes2-shape.svg" alt="">
+                </div>
+              </div>
+              <div class="space24"></div>
+              <div class="tes2-hadding">
+                <p>"Radgeway Service made our Germany family visa process seamless and stress-free. Their expert team provided clear guidance, ensuring all our documents were properly arranged and submitted without errors. Thanks to their professionalism and support, our visa was approved smoothly. Highly recommend their reliable service!"</p>
+                <div class="space24"></div>
+                <ul class="tes2-review">
+                  <li><i class="fa-solid fa-star"></i></li>
+                  <li><i class="fa-solid fa-star"></i></li>
+                  <li><i class="fa-solid fa-star"></i></li>
+                  <li><i class="fa-solid fa-star"></i></li>
+                  <li><i class="fa-solid fa-star"></i></li>
+                </ul>
+                <div class="space16"></div>
+                <h6><a href="#">Nukala Rajinikanth</a></h6>
+                <div class="space4"></div>
+                <span>13/09/2025</span>
+              </div>
+            </div>
+            <div class="tes2-slider-single">
+              <div class="tes2-images">
+                <div class="tes2-img1 img50">
+                  <img src="assets/img/image/download.png" alt="">
+                </div>
+                <div class="tes2-img2">
+                  <img src="assets/img/icons/tes2-icon.svg" alt="">
+                </div>
+                <div class="tes2-img3">
+                  <img src="assets/img/shapes/tes2-shape.svg" alt="">
+                </div>
+              </div>
+              <div class="space24"></div>
+              <div class="tes2-hadding">
+                <p>"Radgeway Service provided outstanding support throughout our Romania family visa application. Their team was highly knowledgeable, ensuring every detail was handled with precision. The entire process was smooth, with no delays or complications. We truly appreciate their dedication and highly recommend their services!"</p>
+                <div class="space24"></div>
+                <ul class="tes2-review">
+                  <li><i class="fa-solid fa-star"></i></li>
+                  <li><i class="fa-solid fa-star"></i></li>
+                  <li><i class="fa-solid fa-star"></i></li>
+                  <li><i class="fa-solid fa-star"></i></li>
+                  <li><i class="fa-solid fa-star"></i></li>
+                </ul>
+                <div class="space16"></div>
+                <h6><a href="#">Rai Sujan</a></h6>
+                <div class="space4"></div>
+                <span>10/03/2025</span>
               </div>
             </div>
 

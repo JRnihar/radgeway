@@ -56,7 +56,7 @@ include("head.php");
                   <div class="hadding2">
                     <h3><a href="service-details.html">Payment strategy</a></h3>
                     <div class="space16"></div>
-                    <p>Visa Consulting is backed by the extensive experien and knowledge of Visa, a leading global payments technology company.</p>
+                    <p>Radgeway Service is backed by the extensive experien and knowledge of Visa, a leading global payments technology company.</p>
                   </div>
                   <div class="space16"></div>
                   
@@ -74,7 +74,7 @@ include("head.php");
                   <div class="hadding2">
                     <h3><a href="service-details.html">Risk management</a></h3>
                     <div class="space16"></div>
-                    <p>With expertise in risk management and fraud prevention, Visa Consulting can assist businesses in developing robust</p>
+                    <p>With expertise in risk management and fraud prevention, Radgeway Service can assist businesses in developing robust</p>
                     <div class="space16"></div>
                     
                   </div>
@@ -92,7 +92,7 @@ include("head.php");
                   <div class="hadding2">
                     <h3><a href="service-details.html">Market Insight</a></h3>
                     <div class="space16"></div>
-                    <p>Visa Consulting provides customized solutions that cater to the specific needs and challenges of each client. Goals and objective.</p>
+                    <p>Radgeway Service provides customized solutions that cater to the specific needs and challenges of each client. Goals and objective.</p>
                     <div class="space16"></div>
                     
                   </div>
@@ -110,7 +110,7 @@ include("head.php");
                   <div class="hadding2">
                     <h3><a href="service-details.html">E-commerce solution </a></h3>
                     <div class="space16"></div>
-                    <p>With expertise in risk management and fraud prevention, Visa Consulting can assist businesses in developing robust</p>
+                    <p>With expertise in risk management and fraud prevention, Radgeway Service can assist businesses in developing robust</p>
                     <div class="space16"></div>
                     
                   </div>
@@ -128,7 +128,7 @@ include("head.php");
                   <div class="hadding2">
                     <h3><a href="service-details.html">Dedicated support</a></h3>
                     <div class="space16"></div>
-                    <p>Visa Consulting is backed by the extensive experien and knowledge of Visa, a leading global payments technology company.</p>
+                    <p>Radgeway Service is backed by the extensive experien and knowledge of Visa, a leading global payments technology company.</p>
                     <div class="space16"></div>
                     
                   </div>
@@ -146,7 +146,7 @@ include("head.php");
                   <div class="hadding2">
                     <h3><a href="#">Acquirer solutions</a></h3>
                     <div class="space16"></div>
-                    <p>With expertise in risk management and fraud prevention, Visa Consulting can assist businesses in developing robust</p>
+                    <p>With expertise in risk management and fraud prevention, Radgeway Service can assist businesses in developing robust</p>
                     <div class="space16"></div>
                    
                   </div>
@@ -164,7 +164,7 @@ include("head.php");
                   <div class="hadding2">
                     <h3><a href="service-details.html">Government payment</a></h3>
                     <div class="space16"></div>
-                    <p>Visa Consulting provides customized solutions that the specific needs and challenges of each client. Goals and <br> objectives.</p>
+                    <p>Radgeway Service provides customized solutions that the specific needs and challenges of each client. Goals and <br> objectives.</p>
                     <div class="space16"></div>
                     
                   </div>
@@ -182,7 +182,7 @@ include("head.php");
                   <div class="hadding2">
                     <h3><a href="service-details.html">Cross border payment</a></h3>
                     <div class="space16"></div>
-                    <p>With expertise in risk management and fraud prevention, Visa Consulting can assist businesses in developing robust</p>
+                    <p>With expertise in risk management and fraud prevention, Radgeway Service can assist businesses in developing robust</p>
                     <div class="space16"></div>
                     
                   </div>
@@ -213,7 +213,7 @@ include("head.php");
                       <div class="hadding2">
                         <span>Why Choose Us</span>
                         <div class="space16"></div>
-                        <h1>Why Choose Immigration & Visa Consulting with Radgeway</h1>
+                        <h1>Why Choose Immigration & Radgeway Service with Radgeway</h1>
                       </div>
                     </div>
                   </div>
@@ -239,7 +239,7 @@ include("head.php");
                           <div class="choose2-text-box">
                             <h4><a href="#">Application Submission</a></h4>
                             <div class="space12"></div>
-                            <p>Once your application is prepared, we'll guide you through Visafast.</p>
+                            <p>Once your application is prepared, we'll guide you through Radgeway Service.</p>
                           </div>
                           <div class="choose2-icon-box">
                             <img src="assets/img/icons/choose2-icon2.svg" alt="">
@@ -282,7 +282,7 @@ include("head.php");
                           <div class="choose2-text-box2">
                             <h4><a href="#">Application Preparation</a></h4>
                             <div class="space12"></div>
-                            <p>With the documents in hand, we'll meticulously prepare Your Visafast.</p>
+                            <p>With the documents in hand, we'll meticulously prepare Your Radgeway Service.</p>
                           </div>
                           <div class="choose2-icon-box2">
                             <img src="assets/img/icons/choose2-icon4.svg" alt="">
@@ -310,7 +310,7 @@ include("head.php");
                           <div class="choose2-text-box2">
                             <h4><a href="#">Innovation</a></h4>
                             <div class="space12"></div>
-                            <p>Visa Consulting stays at the forefront of payment innovations  </p>
+                            <p>Radgeway Service stays at the forefront of payment innovations  </p>
                           </div>
                           <div class="choose2-icon-box2">
                             <img src="assets/img/icons/choose2-icon6.svg" alt="">

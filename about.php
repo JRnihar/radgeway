@@ -65,7 +65,7 @@ include("head.php");
                 <div class="space16"></div>
                 <h1>We Turn Your Immigration & Visa Consult Dreams into Reality</h1>
                 <div class="space24"></div>
-                <p>Radgeway opened its doors in 2024, but our team brings over 6 years of know-how in helping people move to new countries. We're new as a company, but not new to solving visa problems. Our team has worked on many types of visa cases before starting Radgeway. We're proud that 97% of our clients get their visas approved. This shows how good we are at what we do, even though we've only been around for a short time.</p>
+                <p>Radgeway opened its doors in 2022, but our team brings over 6 years of know-how in helping people move to new countries. We're new as a company, but not new to solving visa problems. Our team has worked on many types of visa cases before starting Radgeway. We're proud that 97% of our clients get their visas approved. This shows how good we are at what we do, even though we've only been around for a short time.</p>
                 <div class="space20"></div>
                 <p>We know that each visa case is about a real person with real hopes. You might want to join family, study abroad, or find a better job in another country. That's why we work hard to make the visa process simple for you. We break down all the hard steps into easy ones. When you work with Radgeway, you get a team that truly cares about your future. Our 97% success rate means we've helped hundreds of people start new lives abroad. We'll be with you every step of the way on your journey.</p>
                 <div class="space32"></div>

@@ -9,7 +9,9 @@
 ==== =====nav menu all ====== ======
 +++++++++++++++++++++++++++++++++
 */
-
+.mr50 {
+  margin-right: 50px !important;
+}
 .main-menu-ex li {
   display: inline-block;
 }

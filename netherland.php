@@ -52,7 +52,7 @@ include("head.php");
                     <div class="sidebar-all-content">
                         <article>
                             <div class="img5 img100">
-                                <img src="assets/img/image/Netherlands.jpg" alt="">
+                                <img src="assets/img/image/countrie3-img2.png" alt="">
                             </div>
                             <div class="space24"></div>
                             <div class="hadding2">
