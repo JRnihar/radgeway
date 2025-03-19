@@ -1,25 +1,18 @@
 <?php
+// Start session for form status messaging
+session_start();
 
 $currentPage = 'contact';
-
 $title = "Contact";
-
 $keywords = "";
-
 $description = "";
 
 include("head.php");
-
 ?>
 
 <?php include("header.php"); ?>
 <?php
-// Add error reporting for debugging
-error_reporting(E_ALL);
-ini_set('display_errors', 1);
-
 // Get status from session if exists
-// session_start();
 $status = isset($_SESSION['form_status']) ? $_SESSION['form_status'] : '';
 $message = isset($_SESSION['form_message']) ? $_SESSION['form_message'] : '';
 
@@ -49,10 +42,6 @@ if (isset($_SESSION['form_status'])) {
         display: <?php echo ($status == 'error') ? 'block' : 'none'; ?>;
     }
 </style>
-
-<!-- Status Messages -->
-<div class="success-message"><?php echo $message; ?></div>
-<div class="error-message"><?php echo $message; ?></div>
 
 <!--=====pages hero start=======-->
 <div class="page-hero-area _relative" style="background-image: url(assets/img/bg/page-bg.png);">
@@ -89,6 +78,10 @@ if (isset($_SESSION['form_status'])) {
                     <div class="space16"></div>
                     <p>Whether you have questions about our services, want to book a consultation, or need visa application, </p>
                     <div class="space8"></div>
+                    
+                    <!-- Status Messages -->
+                    <div class="success-message"><?php echo htmlspecialchars($message); ?></div>
+                    <div class="error-message"><?php echo htmlspecialchars($message); ?></div>
                     
                     <form id="contactForm" action="send-mail.php" method="POST">
                         <div class="contact7-form">

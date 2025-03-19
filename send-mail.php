@@ -2,73 +2,75 @@
 use PHPMailer\PHPMailer\PHPMailer;
 use PHPMailer\PHPMailer\Exception;
 
-// Include PHPMailer
-require 'PHPMailer/src/Exception.php';
-require 'PHPMailer/src/PHPMailer.php';
-require 'PHPMailer/src/SMTP.php';
+// Load PHPMailer (Ensure the path is correct)
+require $_SERVER['DOCUMENT_ROOT'].'/PHPMailer/src/Exception.php';
+require $_SERVER['DOCUMENT_ROOT'].'/PHPMailer/src/PHPMailer.php';
+require $_SERVER['DOCUMENT_ROOT'].'/PHPMailer/src/SMTP.php';
 
-// Start session for storing form status
-session_start();
+// Check if form is submitted
+if ($_SERVER["REQUEST_METHOD"] == "POST") {
+    // Get form fields from both contact forms
+    $name    = $_POST['name'] ?? 'No Name';
+    $phone   = $_POST['phone'] ?? 'No Phone';
+    $email   = $_POST['email'] ?? 'No Email';
+    $service = $_POST['service'] ?? 'No Service Selected';
+    $subject = $_POST['subject'] ?? 'New Inquiry';
+    $message = $_POST['message'] ?? 'No Message';
 
-// Get form data
-$name = $_POST['name'] ?? 'Not provided';
-$email = $_POST['email'] ?? 'Not provided';
-$message = $_POST['message'] ?? 'Not provided';
-
-// Check if we're on localhost
-if ($_SERVER['SERVER_NAME'] == 'localhost' || $_SERVER['SERVER_ADDR'] == '127.0.0.1') {
-    // Log email instead of sending
-    $log_file = 'email_log.txt';
-    $log_content = date('Y-m-d H:i:s') . " - TO: info@radgewayservice.com - FROM: $email - SUBJECT: New Contact Form Message - CONTENT: $message\n\n";
-    file_put_contents($log_file, $log_content, FILE_APPEND);
-    
-    // Return success for testing
-    $_SESSION['form_status'] = 'success';
-    $_SESSION['form_message'] = '[LOCAL] Email would be sent in production. Check email_log.txt';
-    header("Location: contact.php");
-    exit;
-}
-
-// Create a new PHPMailer instance
-$mail = new PHPMailer(true);
-
-try {
-    // Server settings
-    $mail->Host       = 'mail.radgewayservice.com'; // Your SMTP server
-    $mail->SMTPAuth   = true;
-    $mail->Username   = 'info@radgewayservice.com'; // Your email username
-    $mail->Password   = '*!SpSG.gn;Kw';  // Your email password
-    $mail->SMTPSecure = PHPMailer::ENCRYPTION_SMTPS; // Use SSL encryption
-    $mail->Port       = 465;
-
-    // Sender & Recipient
-    $mail->setFrom('info@radgewayservice.com', 'Contact Form');
-    $mail->addReplyTo($email, $name);
-    $mail->addAddress('info@radgewayservice.com'); // Recipient email
-
-    // Email Content
-    $mail->isHTML(true);
-    $mail->Subject = 'New Contact Form Message from ' . $name;
-    $mail->Body    = "<p><strong>Name:</strong> $name</p>
-                      <p><strong>Email:</strong> $email</p>
-                      <p><strong>Message:</strong> " . nl2br(htmlspecialchars($message)) . "</p>";
-    $mail->AltBody = "Name: $name\nEmail: $email\nMessage: $message";
-
-    // Send Email
-    if ($mail->send()) {
-        $_SESSION['form_status'] = 'success';
-        $_SESSION['form_message'] = 'Thank you! Your message has been sent successfully.';
-    } else {
-        $_SESSION['form_status'] = 'error';
-        $_SESSION['form_message'] = 'Sorry, there was an error sending your message. Please try again later.';
+    // Validate email
+    if (!filter_var($email, FILTER_VALIDATE_EMAIL)) {
+        echo "❌ Invalid email address!";
+        exit;
     }
 
-} catch (Exception $e) {
-    $_SESSION['form_status'] = 'error';
-    $_SESSION['form_message'] = 'Error: ' . $mail->ErrorInfo;
-}
+    // Create a new PHPMailer instance
+    $mail = new PHPMailer(true);
 
-// Redirect back to contact page
-header("Location: contact.php");
-exit;
+    try {
+        // Enable SMTP Debugging (0 = off, 2 = debug)
+        $mail->SMTPDebug  = 0;
+        
+        // SMTP Configuration
+        $mail->isSMTP();
+        $mail->Host       = 'mail.radgewayservice.com';  // Your mail server
+        $mail->SMTPAuth   = true;
+        $mail->Username   = 'info@radgewayservice.com';  // Your email
+        $mail->Password   = 'YOUR_EMAIL_PASSWORD';       // Your email password
+        $mail->SMTPSecure = PHPMailer::ENCRYPTION_SMTPS; // SSL encryption
+        $mail->Port       = 465;                         // SMTP port
+
+        // Sender & Recipient
+        $mail->setFrom('info@radgewayservice.com', 'Radgeway Service');
+        $mail->addAddress('info@radgewayservice.com');   // Send to yourself
+        $mail->addReplyTo($email, $name);                // Reply to sender
+
+        // Email Content
+        $mail->isHTML(true);
+        $mail->Subject = "New Inquiry from $name";
+        $mail->Body    = "
+            <h3>New Inquiry Received</h3>
+            <p><strong>Name:</strong> $name</p>
+            <p><strong>Phone:</strong> $phone</p>
+            <p><strong>Email:</strong> $email</p>
+            <p><strong>Service Requested:</strong> $service</p>
+            <p><strong>Subject:</strong> $subject</p>
+            <p><strong>Message:</strong></p>
+            <p>$message</p>
+        ";
+        $mail->AltBody = "New Inquiry\n\nName: $name\nPhone: $phone\nEmail: $email\nService: $service\nSubject: $subject\nMessage:\n$message";
+
+        // Send Email
+        if ($mail->send()) {
+            echo "✅ Your message has been sent successfully!";
+        } else {
+            echo "❌ Message could not be sent!";
+        }
+
+    } catch (Exception $e) {
+        echo "❌ Mail Error: " . $mail->ErrorInfo;
+        file_put_contents("mail_error.log", "Mail Error: " . $mail->ErrorInfo . PHP_EOL, FILE_APPEND);
+    }
+} else {
+    echo "❌ Invalid request!";
+}
 ?>
